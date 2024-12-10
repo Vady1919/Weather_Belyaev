@@ -1,0 +1,9 @@
+<!-- strings.xml -->
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="temperature">Температура: %.1f°C</string>
+    <string name="humidity">Влажность: %d%%</string>
+    <string name="description">Описание: %s</string>
+    <string name="fetch">Загрузить</string>
+    <string name="location_hint">Введите название города</string>
+</resources>

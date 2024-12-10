@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/locationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите город" />
+
+    <Button
+        android:id="@+id/fetchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Показать погоду" />
+
+    <TextView
+        android:id="@+id/weatherTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Описание погоды" />
+
+    <ImageView
+        android:id="@+id/weatherIconImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+
+</LinearLayout>
